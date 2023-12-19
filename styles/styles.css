@@ -1,29 +1,32 @@
 :root {
-    --primary-color: #f6d365;
-    --secondary-color:#df0054;
+    --primary-color: rgb(214, 184, 189);
+    --secondary-color: rgb(186, 247, 186);
 
 }
 
 body {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
-p{
+p {
   padding: 20px;
   border-radius: 2px;
   font-size: 18px;
  
 }
+
 .col-3 {
    grid-template-columns: 1fr 1fr;
 }
+
 footer .email-link {
     text-decoration: none;
     color: black;
     font-size: 24px;
     text-align: center;
 }
+
 footer .social-links a {
     margin: 0 20px;
     color: var(--secondary-color);
@@ -34,16 +37,41 @@ footer .social-links a {
     transition:all 150ms ease-in-out;
   
 }
+
 footer .social-links a:hover {
     color: white;
-    background-color: aqua;
+    background-color: var(--primary-color);
 }
+
 footer .contact-box {
     background-color: #5B5754;
     padding: 30px 120px;
     border-radius: 10px;
   
 }
+
 .homepage-container {
-    background-color:bisque
+    background-image: url(../images/newimage.png);
 }
+
+h1{
+    padding-top: 10px;
+}
+.projects-container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+p {
+    background: beige;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 2.5;
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 60px;
+
+  }
