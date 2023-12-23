@@ -90,6 +90,11 @@ p {
    
   @media (max-width: 600px) {
     .homepage-container{
-        color: blueviolet;
+        font-size: 10px;
+        text-align: center;
+        
+    }
+    body {
+        
     }
   }
