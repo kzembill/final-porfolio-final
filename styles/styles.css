@@ -60,10 +60,5 @@ p {
     text-align: left;
     color: beige;
   }
-@media (max-width: 960px) {
-    .homepage-container {
-       
-    }
-}
-    
+
 
